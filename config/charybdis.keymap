@@ -66,9 +66,9 @@
             hold-trigger-key-positions = <39 40 30 31 19 18 6 7 8 9 10 11 20 21 22 23 32 33 34 35>;
         };
 
-        new_behavior: new_behavior {
+        hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
+            label = "HMR";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -246,10 +246,10 @@
 
         base {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+&trans  &kp J        &kp C         &kp Y         &kp F             &kp K          &kp Z            &kp L             &coma_semicolon  &kp U               &kp Q              &trans
+&trans  &hml LGUI R  &hml LSHFT S  &hml LCTRL T  &hml RIGHT_ALT H  &kp D          &kp M            &hmr RIGHT_ALT N  &hmr RCTRL A     &hmr RIGHT_SHIFT I  &hmr LGUI O        &trans
+&trans  &kp SLASH    &kp V         &kp G         &kp P             &kp B          &kp X            &kp W             &dot_colon       &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans
+                                   &sl 3         &lt 4 E           &lt 1 SPACE    &lt 2 BACKSPACE  &sk LEFT_SHIFT
             >;
         };
 
