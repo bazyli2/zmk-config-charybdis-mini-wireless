@@ -279,5 +279,14 @@
                                     &trans        &trans        &trans          &trans        &trans
             >;
         };
+
+        navigation {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp ENTER       &kp ESCAPE    &kp TAB          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans
+            >;
+        };
     };
 };
