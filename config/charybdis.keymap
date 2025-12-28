@@ -52,8 +52,8 @@
 
         left_click {
             bindings = <&mkp LCLK>;
-            key-positions = <4 16>;
-            timeout-ms = <120>;
+            key-positions = <16 28>;
+            timeout-ms = <70>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -124,7 +124,7 @@
 
         right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <16 28>;
+            key-positions = <16 4>;
             timeout-ms = <70>;
             require-prior-idle-ms = <150>;
             layers = <0>;
