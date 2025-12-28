@@ -53,7 +53,71 @@
 
         left_click {
             bindings = <&mkp LCLK>;
-            key-positions = <4 3>;
+            key-positions = <4 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <6 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <18 30>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 19>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 31>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 20>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <20 32>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 21>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <21 33>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
             layers = <0>;
