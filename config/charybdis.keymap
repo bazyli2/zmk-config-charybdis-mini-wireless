@@ -54,7 +54,7 @@
         left_click {
             bindings = <&mkp LCLK>;
             key-positions = <16 28>;
-            timeout-ms = <70>;
+            timeout-ms = <150>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
