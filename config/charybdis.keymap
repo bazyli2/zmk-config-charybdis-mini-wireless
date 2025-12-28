@@ -107,7 +107,7 @@
 &trans  &kp J        &kp C         &kp Y         &kp F             &kp K          &kp Z            &kp L             &coma_semicolon  &kp U               &kp Q              &trans
 &trans  &hml LGUI R  &hml LSHFT S  &hml LCTRL T  &hml RIGHT_ALT H  &kp D          &kp M            &hmr RIGHT_ALT N  &hmr RCTRL A     &hmr RIGHT_SHIFT I  &hmr LGUI O        &trans
 &trans  &kp SLASH    &kp V         &kp G         &kp P             &kp B          &kp X            &kp W             &dot_colon       &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans
-                                   &sl 3         &lt 4 E           &lt 1 SPACE    &lt 2 BACKSPACE  &sk LEFT_SHIFT
+                                   &trans        &lt 3 E           &lt 1 SPACE    &lt 2 BACKSPACE  &sk LEFT_SHIFT
             >;
         };
 
@@ -126,15 +126,6 @@
 &trans  &kp BACKSLASH  &kp MINUS       &kp EQUAL  &kp SINGLE_QUOTE   &kp TILDE    &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans  &trans
 &trans  &trans         &trans          &trans     &trans             &trans       &trans            &trans                 &trans           &trans             &trans  &trans
                                        &trans     &trans             &trans       &trans            &trans
-            >;
-        };
-
-        jump {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
             >;
         };
 
