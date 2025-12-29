@@ -51,14 +51,6 @@
             layers = <0>;
         };
 
-        left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <16 28>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <6 18>;
@@ -118,14 +110,6 @@
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <21 33>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <16 4>;
             timeout-ms = <70>;
             require-prior-idle-ms = <50>;
             layers = <0>;
@@ -219,12 +203,12 @@
             >;
         };
 
-        slow {
+        auto_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans     &trans    &trans  &trans
             >;
         };
 
