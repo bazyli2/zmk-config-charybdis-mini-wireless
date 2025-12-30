@@ -114,6 +114,38 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <4 16>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0 4>;
+        };
+
+        right_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <16 28>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0 4>;
+        };
+
+        double_quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <3 15>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        single_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <15 27>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
