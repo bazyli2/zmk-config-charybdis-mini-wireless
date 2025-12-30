@@ -146,6 +146,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <2 14>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <14 26>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
