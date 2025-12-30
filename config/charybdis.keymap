@@ -162,6 +162,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <13 25>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <1 13>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
