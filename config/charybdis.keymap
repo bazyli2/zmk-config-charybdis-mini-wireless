@@ -260,10 +260,10 @@
 
         symbols {
             bindings = <
-&trans  &kp PIPE       &kp UNDERSCORE  &kp PLUS   &kp DOUBLE_QUOTES  &kp GRAVE    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &kp BACKSLASH  &kp MINUS       &kp EQUAL  &kp SINGLE_QUOTE   &kp TILDE    &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans  &trans
-&trans  &trans         &trans          &trans     &trans             &trans       &trans            &trans                 &trans           &trans             &trans  &trans
-                                       &trans     &trans             &trans       &trans            &trans
+&trans  &kp PIPE  &trans  &kp PLUS   &trans  &kp GRAVE    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans  &kp EQUAL  &trans  &kp TILDE    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans     &trans  &trans       &trans  &trans
             >;
         };
 
