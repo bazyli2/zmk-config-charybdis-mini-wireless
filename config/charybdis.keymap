@@ -17,7 +17,7 @@
         // Switch to auto-mouse temp layer, decrease sensitivity
 
         scroll {
-            layers = <5>; // SCROLL
+            layers = <1>; // SCROLL
             input-processors =
                 <&zip_xy_scaler 1 20>,
                 <&zip_xy_to_scroll_mapper>,
@@ -250,7 +250,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NUM_DANCE";
             #binding-cells = <0>;
-            bindings = <&sl 1>, <&sl 1>;
+            bindings = <&num_word 1>, <&sl 1>;
         };
 
         smart_num: smart_num {
