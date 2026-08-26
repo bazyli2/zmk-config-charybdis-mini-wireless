@@ -11,6 +11,22 @@
 #define INPUT_REL_HWHEEL 0x06           /**< Relative horizontal wheel coordinate */
 #define INPUT_REL_MISC 0x09             /**< Relative misc coordinate */
 
+/ {
+    input_processors {
+        /* Horizontal-only scaler, stacked after the scroll scaler to bias
+         * scrolling toward the vertical axis. Deliberately omits
+         * track-remainders so sub-threshold sideways jitter is discarded
+         * rather than accumulated.
+         */
+        zip_hwheel_scaler: zip_hwheel_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_HWHEEL>;
+        };
+    };
+};
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
