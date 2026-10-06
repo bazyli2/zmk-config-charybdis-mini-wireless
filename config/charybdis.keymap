@@ -163,6 +163,7 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
             layers = <0>;
+            slow-release;
         };
 
         escape {
@@ -170,6 +171,7 @@
             key-positions = <19 20>;
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
+            slow-release;
         };
 
         tab {
@@ -177,6 +179,7 @@
             key-positions = <15 14>;
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
+            slow-release;
         };
 
         colon {
@@ -184,6 +187,7 @@
             key-positions = <20 21>;
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
+            slow-release;
         };
     };
 
